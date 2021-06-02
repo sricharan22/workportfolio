@@ -193,7 +193,7 @@
           <div class="col-md-6">
             <div class="service-box">
               <div class="service-ico">
-                <a href="https://www.iiit.ac.in/"><span class="ico-circle"><i
+                <a href="https://www.iiit.ac.in/" target="_blank"><span class="ico-circle"><i
                       class="fas fa-user-graduate"></i></span></a>
               </div>
               <div class="service-content">
@@ -210,7 +210,7 @@
           <div class="col-md-6">
             <div class="service-box">
               <div class="service-ico">
-                <a href="http://www.griet.ac.in/"><span class="ico-circle"><i
+                <a href="http://www.griet.ac.in/" target="_blank"><span class="ico-circle"><i
                       class="fa fa-graduation-cap"></i></span></a>
               </div>
               <div class="service-content">
@@ -227,7 +227,8 @@
           <div class="col-md-6">
             <div class="service-box">
               <div class="service-ico">
-                <a href="https://www.narayanagroup.com/"><span class="ico-circle"><i class="bi bi-book"></i></span></a>
+                <a href="https://www.narayanagroup.com/" target="_blank"><span class="ico-circle"><i
+                      class="bi bi-book"></i></span></a>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Intermediate</h2>
@@ -243,8 +244,8 @@
           <div class="col-md-6">
             <div class="service-box">
               <div class="service-ico">
-                <a href="https://www.facebook.com/groups/carmel-high-schoolmandamarri-329113640562495/"><span
-                    class="ico-circle"><i class="fas fa-book-reader"></i></span></a>
+                <a href="https://www.facebook.com/groups/carmel-high-schoolmandamarri-329113640562495/"
+                  target="_blank"><span class="ico-circle"><i class="fas fa-book-reader"></i></span></a>
               </div>
               <div class="service-content"><br>
                 <h2 class="s-title">S.S.C.</h2>
@@ -617,48 +618,31 @@
               <div id="contact" class="box-shadow-full">
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Send Message Us
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                                required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
-                        </div>
-                      </form>
+                    <div class="mapouter">
+                      <div class="gmap_canvas">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1902.5912815406261!2d78.40838040600693!3d17.498796482420254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb913a9054e075%3A0x6449b22f74c64548!2sSri%20chakra%20nilayam!5e0!3m2!1sen!2sus!4v1622630059347!5m2!1sen!2sus"
+                          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      </div>
+                      <style>
+                        .mapouter {
+                          position: relative;
+                          text-align: right;
+                          width: 100%;
+                          height: 400px;
+                        }
+
+                        .gmap_canvas {
+                          overflow: hidden;
+                          background: none !important;
+                          width: 100%;
+                          height: 400px;
+                        }
+
+                        .gmap_iframe {
+                          height: 400px !important;
+                        }
+                      </style>
                     </div>
                   </div>
                   <div class="col-md-6">
